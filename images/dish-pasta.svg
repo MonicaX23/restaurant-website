@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-label="Overhead bowl of tomato basil pasta">
+<defs>
+  <radialGradient id="bg" cx="42%" cy="38%" r="80%">
+    <stop offset="0%" stop-color="#FCF9F2"/>
+    <stop offset="100%" stop-color="#EDE4D2"/>
+  </radialGradient>
+  <radialGradient id="plate" cx="40%" cy="35%" r="75%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="78%" stop-color="#FBF8F1"/>
+    <stop offset="100%" stop-color="#E7DDC9"/>
+  </radialGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2B2A22" flood-opacity="0.16"/>
+  </filter>
+  <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#2B2A22" flood-opacity="0.18"/>
+  </filter>
+  
+</defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+
+  <circle cx="450" cy="300" r="230" fill="url(#plate)" filter="url(#soft)"/>
+  <circle cx="450" cy="300" r="220" fill="none" stroke="#E7DDC9" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="450" cy="300" r="161" fill="none" stroke="#E7DDC9" stroke-width="3" opacity="0.7"/>
+  <ellipse cx="450" cy="308" rx="150" ry="100" fill="#EFC76C"/>
+  <g opacity="0.95"><path d="M450 300 m-60 0 a60 36 0 1 1 120 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.5" transform="rotate(0 450 300)"/><path d="M450 300 m-69 0 a69 41 0 1 1 138 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.55" transform="rotate(16 450 300)"/><path d="M450 300 m-78 0 a78 46 0 1 1 156 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.6" transform="rotate(32 450 300)"/><path d="M450 300 m-87 0 a87 52 0 1 1 174 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.65" transform="rotate(48 450 300)"/><path d="M450 300 m-96 0 a96 57 0 1 1 192 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.7" transform="rotate(64 450 300)"/><path d="M450 300 m-105 0 a105 63 0 1 1 210 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.75" transform="rotate(80 450 300)"/><path d="M450 300 m-114 0 a114 68 0 1 1 228 0" fill="none" stroke="#E0A436" stroke-width="9" opacity="0.8" transform="rotate(96 450 300)"/></g>
+  <circle cx="395" cy="280" r="22" fill="#B5402F"/>
+  <circle cx="498" cy="328" r="19" fill="#B5402F"/>
+  <circle cx="458" cy="256" r="16" fill="#B5402F"/>
+  <circle cx="430" cy="346" r="13" fill="#C26B43"/>
+  <g transform="translate(522,274) scale(0.8) rotate(18)">
+    <path d="M0 0 C2 -28 -2 -50 0 -76" stroke="#5E7445" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="11" cy="-8" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -8"/><ellipse cx="-11" cy="-24" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -24"/><ellipse cx="11" cy="-40" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -40"/><ellipse cx="-11" cy="-56" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -56"/><ellipse cx="11" cy="-72" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -72"/>
+  </g>
+  <g transform="translate(366,340) scale(0.6) rotate(-16)">
+    <path d="M0 0 C2 -28 -2 -50 0 -76" stroke="#5E7445" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="11" cy="-8" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -8"/><ellipse cx="-11" cy="-24" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -24"/><ellipse cx="11" cy="-40" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -40"/><ellipse cx="-11" cy="-56" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -56"/><ellipse cx="11" cy="-72" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -72"/>
+  </g>
+  <ellipse cx="450" cy="292" rx="34" ry="14" fill="#FFFFFF" opacity="0.3"/>
+</svg>

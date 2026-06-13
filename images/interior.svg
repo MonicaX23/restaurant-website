@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Warm Mediterranean restaurant interior with arched windows and set tables">
+<defs>
+  <radialGradient id="bg" cx="42%" cy="38%" r="80%">
+    <stop offset="0%" stop-color="#FCF9F2"/>
+    <stop offset="100%" stop-color="#EDE4D2"/>
+  </radialGradient>
+  <radialGradient id="plate" cx="40%" cy="35%" r="75%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="78%" stop-color="#FBF8F1"/>
+    <stop offset="100%" stop-color="#E7DDC9"/>
+  </radialGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2B2A22" flood-opacity="0.16"/>
+  </filter>
+  <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#2B2A22" flood-opacity="0.18"/>
+  </filter>
+  <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EFE2"/><stop offset="100%" stop-color="#EDE4D2"/></linearGradient>
+      <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E4D4B8"/><stop offset="100%" stop-color="#D8C4A2"/></linearGradient>
+</defs>
+  <rect width="1200" height="820" fill="url(#bg)"/>
+
+  <rect width="1200" height="540" fill="url(#wall)"/>
+  <rect y="540" width="1200" height="280" fill="url(#floor)"/>
+  <g opacity="0.5">
+    <rect x="120" y="120" width="220" height="300" rx="10" fill="#FCF9F2" stroke="#3B4A2F" stroke-width="6"/>
+    <rect x="860" y="120" width="220" height="300" rx="10" fill="#FCF9F2" stroke="#3B4A2F" stroke-width="6"/>
+    <line x1="230" y1="120" x2="230" y2="420" stroke="#3B4A2F" stroke-width="4"/>
+    <line x1="970" y1="120" x2="970" y2="420" stroke="#3B4A2F" stroke-width="4"/>
+  </g>
+  <g opacity="0.7">
+    <path d="M520 110 q40 -60 90 -20 q50 -50 90 10 q30 60 -40 90 q-40 60 -100 10 q-60 10 -40 -90z" fill="#7E9A5C" opacity="0.6"/>
+  </g>
+  <line x1="300" y1="0" x2="300" y2="150" stroke="#28321F" stroke-width="4"/>
+      <path d="M256 150 h88 l-22 56 h-44 z" fill="#C26B43" stroke="#A4502E" stroke-width="3"/>
+      <ellipse cx="300" cy="208" rx="20" ry="8" fill="#E0A436" opacity="0.85"/><line x1="600" y1="0" x2="600" y2="150" stroke="#28321F" stroke-width="4"/>
+      <path d="M556 150 h88 l-22 56 h-44 z" fill="#C26B43" stroke="#A4502E" stroke-width="3"/>
+      <ellipse cx="600" cy="208" rx="20" ry="8" fill="#E0A436" opacity="0.85"/><line x1="900" y1="0" x2="900" y2="150" stroke="#28321F" stroke-width="4"/>
+      <path d="M856 150 h88 l-22 56 h-44 z" fill="#C26B43" stroke="#A4502E" stroke-width="3"/>
+      <ellipse cx="900" cy="208" rx="20" ry="8" fill="#E0A436" opacity="0.85"/>
+  <g>
+      <ellipse cx="300" cy="646" rx="120" ry="26" fill="#2B2A22" opacity="0.12"/>
+      <rect x="292" y="560" width="16" height="120" fill="#28321F"/>
+      <ellipse cx="300" cy="560" rx="112" ry="40" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/>
+      <ellipse cx="300" cy="558" rx="60" ry="20" fill="#FFFFFF"/>
+      <circle cx="270" cy="554" r="9" fill="#B5402F"/>
+      <circle cx="318" cy="562" r="7" fill="#5E7445"/>
+      <rect x="370" y="502" width="10" height="58" rx="5" fill="#C26B43"/>
+      <ellipse cx="375" cy="500" rx="8" ry="12" fill="#E0A436"/>
+    </g><g>
+      <ellipse cx="600" cy="646" rx="120" ry="26" fill="#2B2A22" opacity="0.12"/>
+      <rect x="592" y="560" width="16" height="120" fill="#28321F"/>
+      <ellipse cx="600" cy="560" rx="112" ry="40" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/>
+      <ellipse cx="600" cy="558" rx="60" ry="20" fill="#FFFFFF"/>
+      <circle cx="570" cy="554" r="9" fill="#B5402F"/>
+      <circle cx="618" cy="562" r="7" fill="#5E7445"/>
+      <rect x="670" y="502" width="10" height="58" rx="5" fill="#C26B43"/>
+      <ellipse cx="675" cy="500" rx="8" ry="12" fill="#E0A436"/>
+    </g><g>
+      <ellipse cx="900" cy="646" rx="120" ry="26" fill="#2B2A22" opacity="0.12"/>
+      <rect x="892" y="560" width="16" height="120" fill="#28321F"/>
+      <ellipse cx="900" cy="560" rx="112" ry="40" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/>
+      <ellipse cx="900" cy="558" rx="60" ry="20" fill="#FFFFFF"/>
+      <circle cx="870" cy="554" r="9" fill="#B5402F"/>
+      <circle cx="918" cy="562" r="7" fill="#5E7445"/>
+      <rect x="970" y="502" width="10" height="58" rx="5" fill="#C26B43"/>
+      <ellipse cx="975" cy="500" rx="8" ry="12" fill="#E0A436"/>
+    </g>
+</svg>

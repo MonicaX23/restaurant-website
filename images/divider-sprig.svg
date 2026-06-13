@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="48" viewBox="0 0 280 48" role="img" aria-label="Decorative olive sprig divider">
+  <line x1="0" y1="24" x2="104" y2="24" stroke="#5E7445" stroke-width="1.5" opacity="0.45"/>
+  <line x1="176" y1="24" x2="280" y2="24" stroke="#5E7445" stroke-width="1.5" opacity="0.45"/>
+  <g transform="translate(140,24)" stroke="#5E7445" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-22 0 H22"/>
+  </g>
+  <g fill="#5E7445">
+    <ellipse cx="124" cy="16" rx="7" ry="3.4" transform="rotate(-32 124 16)"/>
+    <ellipse cx="140" cy="11" rx="7.5" ry="3.6"/>
+    <ellipse cx="156" cy="16" rx="7" ry="3.4" transform="rotate(32 156 16)"/>
+    <circle cx="132" cy="30" r="3.4" fill="#C26B43"/>
+    <circle cx="148" cy="30" r="3.4" fill="#C26B43"/>
+  </g>
+</svg>

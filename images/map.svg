@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Stylized neighbourhood map showing the restaurant location">
+<defs>
+  <radialGradient id="bg" cx="42%" cy="38%" r="80%">
+    <stop offset="0%" stop-color="#FCF9F2"/>
+    <stop offset="100%" stop-color="#EDE4D2"/>
+  </radialGradient>
+  <radialGradient id="plate" cx="40%" cy="35%" r="75%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="78%" stop-color="#FBF8F1"/>
+    <stop offset="100%" stop-color="#E7DDC9"/>
+  </radialGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2B2A22" flood-opacity="0.16"/>
+  </filter>
+  <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#2B2A22" flood-opacity="0.18"/>
+  </filter>
+  <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5EFE2"/><stop offset="100%" stop-color="#EDE4D2"/></linearGradient>
+</defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+
+  <rect width="900" height="560" fill="url(#land)"/>
+  <g stroke="#E0D2B8" stroke-width="16" opacity="0.5" stroke-linecap="round">
+      <line x1="0" y1="200" x2="900" y2="180"/>
+      <line x1="0" y1="380" x2="900" y2="360"/>
+      <line x1="300" y1="0" x2="320" y2="560"/>
+      <line x1="600" y1="0" x2="580" y2="560"/>
+    </g>
+  <rect x="57" y="68" width="97" height="74" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="61" y="199" width="95" height="90" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="68" y="312" width="99" height="70" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="65" y="448" width="97" height="77" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="206" y="65" width="97" height="96" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="217" y="195" width="92" height="90" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="204" y="317" width="100" height="74" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="216" y="452" width="103" height="70" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="352" y="55" width="104" height="100" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="368" y="181" width="89" height="94" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="350" y="318" width="95" height="89" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="362" y="453" width="92" height="93" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="518" y="64" width="110" height="99" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="504" y="191" width="83" height="71" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="504" y="325" width="86" height="78" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="513" y="460" width="107" height="79" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="663" y="66" width="106" height="82" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="668" y="191" width="97" height="88" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="663" y="328" width="87" height="98" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="660" y="440" width="107" height="78" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="819" y="55" width="102" height="97" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="810" y="197" width="108" height="88" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="818" y="313" width="102" height="90" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/><rect x="806" y="460" width="106" height="88" rx="8" fill="#FCF9F2" stroke="#E7DDC9" stroke-width="3"/>
+  <g filter="url(#soft2)">
+    <path d="M450 200 c-58 0 -104 46 -104 104 0 78 104 168 104 168 s104 -90 104 -168 c0 -58 -46 -104 -104 -104z" fill="#C26B43"/>
+    <circle cx="450" cy="304" r="40" fill="#FCF9F2"/>
+    <path d="M438 286 a12 12 0 0 1 24 0 v40 h-24z" fill="#3B4A2F"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="760" viewBox="0 0 940 760" role="img" aria-label="Overhead bowl of fresh pasta, the kitchen's signature dish">
+<defs>
+  <radialGradient id="bg" cx="42%" cy="38%" r="80%">
+    <stop offset="0%" stop-color="#FCF9F2"/>
+    <stop offset="100%" stop-color="#EDE4D2"/>
+  </radialGradient>
+  <radialGradient id="plate" cx="40%" cy="35%" r="75%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="78%" stop-color="#FBF8F1"/>
+    <stop offset="100%" stop-color="#E7DDC9"/>
+  </radialGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#2B2A22" flood-opacity="0.16"/>
+  </filter>
+  <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#2B2A22" flood-opacity="0.18"/>
+  </filter>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0A436" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#E0A436" stop-opacity="0"/></radialGradient>
+</defs>
+  <rect width="940" height="760" fill="url(#bg)"/>
+
+  <circle cx="470" cy="380" r="350" fill="url(#halo)"/>
+  
+  <circle cx="470" cy="380" r="300" fill="url(#plate)" filter="url(#soft)"/>
+  <circle cx="470" cy="380" r="290" fill="none" stroke="#E7DDC9" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="470" cy="380" r="210" fill="none" stroke="#E7DDC9" stroke-width="3" opacity="0.7"/>
+  <ellipse cx="470" cy="388" rx="196" ry="132" fill="#EFC76C"/>
+  <g opacity="0.96"><path d="M470 380 m-70 0 a70 43 0 1 1 140 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.45" transform="rotate(0 470 380)"/><path d="M470 380 m-81 0 a81 50 0 1 1 162 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.5" transform="rotate(15 470 380)"/><path d="M470 380 m-92 0 a92 57 0 1 1 184 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.55" transform="rotate(30 470 380)"/><path d="M470 380 m-103 0 a103 63 0 1 1 206 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.6" transform="rotate(45 470 380)"/><path d="M470 380 m-114 0 a114 70 0 1 1 228 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.65" transform="rotate(60 470 380)"/><path d="M470 380 m-125 0 a125 77 0 1 1 250 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.7" transform="rotate(75 470 380)"/><path d="M470 380 m-136 0 a136 84 0 1 1 272 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.75" transform="rotate(90 470 380)"/><path d="M470 380 m-147 0 a147 91 0 1 1 294 0" fill="none" stroke="#E0A436" stroke-width="11" opacity="0.8" transform="rotate(105 470 380)"/></g>
+  <circle cx="398" cy="354" r="28" fill="#B5402F"/>
+  <circle cx="532" cy="416" r="24" fill="#B5402F"/>
+  <circle cx="482" cy="322" r="20" fill="#B5402F"/>
+  <circle cx="444" cy="440" r="16" fill="#C26B43"/>
+  <g transform="translate(566,346) scale(1.05) rotate(18)">
+    <path d="M0 0 C2 -28 -2 -50 0 -76" stroke="#5E7445" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="11" cy="-8" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -8"/><ellipse cx="-11" cy="-24" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -24"/><ellipse cx="11" cy="-40" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -40"/><ellipse cx="-11" cy="-56" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -56"/><ellipse cx="11" cy="-72" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -72"/>
+  </g>
+  <g transform="translate(366,432) scale(0.8) rotate(-16)">
+    <path d="M0 0 C2 -28 -2 -50 0 -76" stroke="#5E7445" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="11" cy="-8" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -8"/><ellipse cx="-11" cy="-24" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -24"/><ellipse cx="11" cy="-40" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -40"/><ellipse cx="-11" cy="-56" rx="9" ry="5" fill="#5E7445" transform="rotate(-35)" transform-origin="-11 -56"/><ellipse cx="11" cy="-72" rx="9" ry="5" fill="#5E7445" transform="rotate(35)" transform-origin="11 -72"/>
+  </g>
+  <ellipse cx="470" cy="368" rx="44" ry="18" fill="#FFFFFF" opacity="0.3"/>
+</svg>

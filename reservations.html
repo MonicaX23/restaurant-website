@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Send a reservation enquiry to Olivetta. We confirm every booking by phone or email the same day.">
+  <meta name="theme-color" content="#28321F">
+  <title>Reservations · Olivetta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%2328321F'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23E0A436' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">Olivetta</span>
+        <span class="logo-sub">Mediterranean Kitchen</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="main-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html" aria-current="page">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Two minutes, no account</p>
+        <h1>Book a table</h1>
+        <p class="lead">Send us the details below and we'll confirm by phone or email the same day. For tables of eight or more, drop us a line and we'll plan it together.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-two">
+        <form class="form-card reveal" data-enhanced="true" novalidate>
+          <h2>Reservation enquiry</h2>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+            </div>
+            <div class="form-group">
+              <label for="guests">Number of guests</label>
+              <input type="number" id="guests" name="guests" min="1" max="20" required>
+            </div>
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="time">Time</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group full-width">
+              <label for="requests">Anything we should know?</label>
+              <textarea id="requests" name="requests" rows="4" placeholder="Allergies, access needs, a high chair, a window seat…"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+          <p class="form-message" role="status" tabindex="-1">Thanks — your enquiry is in. We'll confirm your table by phone or email today.</p>
+        </form>
+
+        <aside class="reveal">
+          <div class="note-card">
+            <h2>Good to know</h2>
+            <p>This form sends an enquiry, not an instant booking — a real person reads every one and confirms back to you. A live site would connect it to a secure booking or email service.</p>
+            <p>Running late or need to change a booking? Call us on <a href="tel:000000000">000 000 000</a> and we'll sort it out.</p>
+            <ul class="info-list" style="margin-top:1.2rem">
+              <li><strong>Walk-ins</strong> Welcome when there's room</li>
+              <li><strong>Large groups</strong> 8+ by arrangement</li>
+              <li><strong>Held for</strong> 15 minutes past your time</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Olivetta</h2>
+          <p>A seasonal Mediterranean kitchen on Market Lane. Fresh plates, poured oil, long tables.</p>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <p>10 Market Lane<br>City Centre<br><a href="tel:000000000">000 000 000</a><br><a href="mailto:hello@olivetta.example">hello@olivetta.example</a></p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Olivetta. All rights reserved.</span>
+        <span>Open Mon–Sun · Lunch &amp; dinner</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find Olivetta — opening hours, address, phone and email, plus a quick contact form for questions and special requests.">
+  <meta name="theme-color" content="#28321F">
+  <title>Contact · Olivetta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%2328321F'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23E0A436' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">Olivetta</span>
+        <span class="logo-sub">Mediterranean Kitchen</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">Menu</button>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="main-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Say hello</p>
+        <h1>Find us &amp; get in touch</h1>
+        <p class="lead">We're on Market Lane in the city centre. Pop in, call ahead, or send a note and we'll get back to you the same day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-two">
+        <div class="note-card reveal">
+          <h2>Where to find us</h2>
+          <ul class="info-list">
+            <li><strong>Address</strong> 10 Market Lane, City Centre</li>
+            <li><strong>Phone</strong> <a href="tel:000000000">000 000 000</a></li>
+            <li><strong>Email</strong> <a href="mailto:hello@olivetta.example">hello@olivetta.example</a></li>
+          </ul>
+          <h3>Opening hours</h3>
+          <table class="hours">
+            <tbody>
+              <tr><th scope="row">Monday – Thursday</th><td>11:00 – 21:00</td></tr>
+              <tr><th scope="row">Friday</th><td>11:00 – 22:00</td></tr>
+              <tr><th scope="row">Saturday</th><td>10:00 – 22:00</td></tr>
+              <tr><th scope="row">Sunday</th><td>10:00 – 20:00</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <form class="form-card reveal" data-enhanced="true" novalidate>
+          <h2>Send a message</h2>
+          <div class="form-group">
+            <label for="contact-name">Full name</label>
+            <input type="text" id="contact-name" name="contact-name" autocomplete="name" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email address</label>
+            <input type="email" id="contact-email" name="contact-email" autocomplete="email" required>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="contact-message" rows="5" placeholder="A question, a special request, or just to say hello…" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p class="form-message" role="status" tabindex="-1">Thanks for writing — we've got your message and will reply soon.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section tinted">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">On the map</p>
+          <h2 class="section-title">A short walk from the market</h2>
+        </div>
+        <figure class="media-img reveal">
+          <img src="images/map.svg" alt="Stylised neighbourhood map showing Olivetta's location near the market on Market Lane">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>Olivetta</h2>
+          <p>A seasonal Mediterranean kitchen on Market Lane. Fresh plates, poured oil, long tables.</p>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <p>10 Market Lane<br>City Centre<br><a href="tel:000000000">000 000 000</a><br><a href="mailto:hello@olivetta.example">hello@olivetta.example</a></p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Olivetta. All rights reserved.</span>
+        <span>Open Mon–Sun · Lunch &amp; dinner</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
